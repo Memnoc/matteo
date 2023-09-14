@@ -7,6 +7,11 @@
   },
   "dependencies": {
     "cli-welcome": "^2.2.2",
-    "matteo-stara-cv": "^2.1.0"
-  }
+    "matteo-stara-cv": "^2.2.0"
+  },
+  "keywords": [
+    "matteo stara",
+    "matteo",
+    "stara"
+  ]
 }
