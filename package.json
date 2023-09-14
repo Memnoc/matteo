@@ -13,5 +13,13 @@
     "matteo stara",
     "matteo",
     "stara"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "memnoc/matteo-stara-cv",
+  "author": {
+    "name": "Matteo Stara",
+    "email": "matteostara@smartdroidesign.com",
+    "url": "https://matechblog.com"
+  }
 }
