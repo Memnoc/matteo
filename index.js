@@ -1,8 +1,20 @@
 #!/usr/bin/env node
-const clearConsole = require("clear-any-console");
-console.log(`
-Matteo Stara - Software Engineer
+const welcome = require("cli-welcome");
+const pkgJSON = require("./package.json");
 
+welcome({
+  title: pkgJSON.name,
+  tagLine: `Hello there!`,
+  description: pkgJSON.description,
+  version: pkgJSON.version,
+  bgColor: `#FADC00`,
+  color: `#000000`,
+  bold: true,
+  clear: true,
+});
+
+console.log(`
+Matteo Stara
 
 Passionate about automations, CLI tools, and open source.
 I dedicate my time to learn new things and share my knowledge with others.
@@ -12,8 +24,5 @@ Helping people throuhg technology is my mission.
 
 I hope I can help you too. <3
 
-You can find me on Twitter: 🐦
-You can find me on Instagram: 📸
-You can find me on Facebook: 👤
-
+ 👨‍💼 Linkedin: https://www.linkedin.com/in/matteo-genesio-stara-814062a7 
 `);

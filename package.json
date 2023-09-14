@@ -1,10 +1,12 @@
 {
   "name": "matteo-stara-cv",
   "version": "2.1.0",
+  "description": "get to know Matteo via `npx matteo-stara-cv`",
   "bin": {
     "matteo-stara-cv": "./index.js"
   },
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "cli-welcome": "^2.2.2",
+    "matteo-stara-cv": "^2.1.0"
   }
 }
