@@ -29,7 +29,7 @@ Helping people and companies with technology is my mission.
 I hope I can help you too! `
 )}
 
-${chalk.red(`💼 Linkedin:`)}${chalk.dim(` https://tinyurl.com/matteo-profile`)}
-${chalk.yellow(`📖 Blog:`)} ${chalk.dim(` https://tinyurl.com/matteo-blog`)}
-${chalk.green(`📖 Github:`)} ${chalk.dim(` https://github.com/Memnoc`)}
+${chalk.red(` Linkedin:`)}${chalk.dim(` https://tinyurl.com/matteo-profile`)}
+${chalk.yellow(` Blog:`)} ${chalk.dim(` https://tinyurl.com/matteo-blog`)}
+${chalk.green(`ﯙ Github:`)} ${chalk.dim(` https://github.com/Memnoc`)}
 `);
