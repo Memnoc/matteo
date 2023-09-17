@@ -18,16 +18,17 @@ welcome({
 
 log(`
 ${chalk.blue(`Matteo Stara`)}
-${chalk.dim(
-  `
+${chalk.dim(`
 Passionate about automations, CLI tools, and open source.
 I dedicate my time to learn new things and share my knowledge with others.
 At work, I'm a Senior Sytstem Architect and Software Engineer @Personio.
 
-Helping people and companies with technology is my mission.
+I work with an array of different technologies, and frontend frameworks, including React, Svelte, Vue.
+My team specializes in enabling organizations and departments through technologies and workflows.
 
-I hope I can help you too! `
-)}
+Solving real-life problems with code and technologies is my mission.
+
+I hope I can help you too! `)}
 
 ${chalk.red(` Linkedin:`)}${chalk.dim(` https://tinyurl.com/matteo-profile`)}
 ${chalk.yellow(` Blog:`)} ${chalk.dim(` https://tinyurl.com/matteo-blog`)}

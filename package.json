@@ -7,8 +7,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "cli-welcome": "^2.2.2",
-    "matteo-stara-cv": "^2.2.0"
+    "cli-welcome": "^2.2.2"
   },
   "keywords": [
     "matteo stara",
