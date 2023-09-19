@@ -2,21 +2,29 @@
 const welcome = require("cli-welcome");
 const pkgJSON = require("./package.json");
 const chalk = require("chalk");
+const dim = chalk.dim;
+const italic = chalk.italic;
 const log = console.log;
+
+// Palette
+const linkedin = chalk.bgHex(`7287fd`);
+const blog = chalk.bgHex(`fab387`);
+const github = chalk.bgHex(`#179299`);
+const footer = chalk.hex(`#cba6f7`);
 
 welcome({
   title: pkgJSON.name,
   tagLine: `Hello there 😊 `,
   description: pkgJSON.description,
   version: pkgJSON.version,
-  bgColor: `#FADC00`,
+  bgColor: `#e78284`,
   color: `#000000`,
   bold: true,
   clear: true,
 });
 
 log(`
-${chalk.italic(`
+${italic(`
 I like developoing CLI tools with Node.js and different Go libraries, like Gum; this CLI tool is an example of what I can do with it.
 
 I love low-level programming language, compilers and interpreters. I have even designed my own programming language, StarScript, which aims to address some of the things I do not like about other programming languages.
@@ -29,15 +37,9 @@ Programming gives us the opportunity to solve real-life problems and make the wo
 
 I hope I can help you too! `)}
 
-${chalk.bgHex(`7287fd`)(`  Linkedin `)}${chalk.dim(
-  ` https://tinyurl.com/matteo-profile`
-)}
-${chalk.bgHex(`fab387`)(`  Blog `)} ${chalk.dim(
-  ` https://tinyurl.com/matteo-blog`
-)}
-${chalk.bgHex(`#179299`)(` ﯙ Github `)} ${chalk.dim(
-  ` https://github.com/Memnoc`
-)}
+${linkedin(`  Linkedin `)}${dim(` https://tinyurl.com/matteo-profile`)}
+${blog(`  Blog `)} ${dim(` https://tinyurl.com/matteo-blog`)}
+${github(` ﯙ Github `)} ${dim(` https://github.com/Memnoc`)}
 
-${chalk.hex(`#cba6f7`)(`Designed with 💗, themed with catppuccin ™`)}
+${footer(`Designed with 💗 | themed with Catppuccin ™`)}
 `);
