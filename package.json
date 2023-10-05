@@ -1,6 +1,6 @@
 {
   "name": "matteo-stara-cv",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "get to know Matteo via `npx matteo-stara-cv`",
   "bin": {
     "matteo-stara-cv": "./index.js"
