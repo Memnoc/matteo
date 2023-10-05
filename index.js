@@ -2,6 +2,7 @@
 const welcome = require("cli-welcome");
 const pkgJSON = require("./package.json");
 const chalk = require("chalk");
+const checkNode = require("cli-check-node");
 const dim = chalk.dim;
 const italic = chalk.italic;
 const log = console.log;
@@ -22,6 +23,8 @@ welcome({
   bold: true,
   clear: true,
 });
+
+checkNode("10");
 
 log(`
 ${italic(`
